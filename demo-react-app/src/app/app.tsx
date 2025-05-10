@@ -1,15 +1,20 @@
-
-// import styles from './app.module.scss';
 import * as React from 'react';
+import { useEffect } from 'react';
 
 export function App() {
   const title = 'reactapp';
 
+  useEffect(() => {
+    if (!customElements.get('simple-greeting-comp')) {
+      console.warn('Custom element simple-greeting-comp is not defined.');
+    }
+  }, []);
+
   return (
     <div>
-      <simple-greeting-comp title={title} />
+      <div style={{ textAlign: 'center' }}>
+        {React.createElement('simple-greeting-comp', { title })}
+      </div>
     </div>
   );
 }
-
-export default App;
