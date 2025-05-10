@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "es2015",
     "jsx": "react-jsx",
     "allowJs": false,
     "esModuleInterop": false,
