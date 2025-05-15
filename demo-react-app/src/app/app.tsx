@@ -14,6 +14,7 @@ export function App() {
     <div>
       <div style={{ textAlign: 'center' }}>
         {React.createElement('simple-greeting-comp', { title })}
+        {React.createElement('angular-button')}
       </div>
     </div>
   );

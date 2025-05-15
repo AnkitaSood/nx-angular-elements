@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@demo-nx-repo/ui": ["ui/src/index.ts"],
-      "@design-system-lib": ["libs/src/index.ts"]
+      "@design-system-lib": ["libs/src/index.ts"],
+      "ng-design": ["angular-libs/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

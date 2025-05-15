@@ -1,1 +1,1 @@
-export * from './lib/greetings.element';
+export * from './greetings.element';
