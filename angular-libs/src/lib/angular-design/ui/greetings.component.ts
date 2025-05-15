@@ -2,9 +2,9 @@ import { Component, input } from '@angular/core';
 
 @Component({
   template: `
-    <h1>Welcome to {{title()}}!</h1>
+    <h1>Greetings from {{title()}}!</h1>
   `
 })
 export class GreetingInAngularComponent {
-  title = input<string>();
+  title = input<string>('Angular');
 }

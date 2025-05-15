@@ -3,7 +3,7 @@
   "$schema": "../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "demo-react-app/src",
   "projectType": "application",
-  "implicitDependencies": ["ng-design"],
+  "implicitDependencies": ["angular-design-lib"],
   "tags": [],
   "// targets": "to see all targets run: nx show project demo-react-app --web",
   "targets": {}
